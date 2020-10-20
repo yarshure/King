@@ -1,0 +1,11 @@
+//
+//  x.xcconfig
+//  myking
+//
+//  Created by yarshure on 10/15/20.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+HEADER_SEARCH_PATHS = "/usr/local/include" 
+OTHER_LDFLAGS = $(inherited) -L/usr/local/Cellar/libusb/1.0.23/lib  -lusb-1.0
